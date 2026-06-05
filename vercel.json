@@ -1,11 +1,5 @@
 {
   "buildCommand": "",
-  "outputDirectory": ".",
-  "framework": "html",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "outputDirectory": "public",
+  "framework": "html"
 }
