@@ -1,17 +1,10 @@
 {
-  "buildCommand": "echo 'No build needed for static site'",
-  "devCommand": "npx http-server",
-  "installCommand": "npm install",
-  "framework": null,
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/index.html"
-    }
-  ],
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "framework": "html",
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
